@@ -5,6 +5,10 @@
 body{
     margin: 0;
 }
+.main-section{
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+}
 
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
@@ -27,6 +31,8 @@ body{
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
     padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .btn-primary{
     background-color: #FF900E;
@@ -225,8 +231,8 @@ main > section{
         margin-left: 20px;
     }
     #experience-badge{
-        margin-top: 20px;
-        margin-left: 20px;
+        margin: 20px 10px;
+        
     }
 }
 
